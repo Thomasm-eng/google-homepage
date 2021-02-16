@@ -4,6 +4,9 @@ img{
     margin-top: 156px;
 }
 .searchbar{
+    position: relative;
+}
+.searchbar input{
     display: block;
     margin: auto;
     margin-top: 27px;
@@ -11,4 +14,22 @@ img{
     height: 42px;
     border-radius: 50px;
     border: 1px solid #DCDCDC;
+    outline: none;
+    text-indent: 45px;
+}
+.searchbar input:hover, .searchbar input:focus {
+    box-shadow: 0 0 5px #C0C0C0;
+    border: none;
+}
+.searchbar img#magnify {
+    position: absolute;
+    top: -142px;
+    left: 286px;
+    width: 18px;
+}
+.searchbar img#mic {
+    position: absolute;
+    top: -143px;
+    right: 290px;
+    width: 18px;
 }
