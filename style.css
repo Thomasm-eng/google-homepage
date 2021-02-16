@@ -1,0 +1,14 @@
+img{
+    display: block;
+    margin: auto;
+    margin-top: 156px;
+}
+.searchbar{
+    display: block;
+    margin: auto;
+    margin-top: 27px;
+    width: 478px;
+    height: 42px;
+    border-radius: 50px;
+    border: 1px solid #DCDCDC;
+}
