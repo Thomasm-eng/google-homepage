@@ -1,36 +1,37 @@
-img{
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#logo {
     display: block;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 156px;
 }
-.searchbar{
-    position: relative;
-}
-.searchbar input{
-    display: block;
-    margin: auto;
-    margin-top: 27px;
-    width: 478px;
-    height: 42px;
+.parent{
+    display: flex;
+    width: 480px;
+    height: 44px;
     border-radius: 50px;
     border: 1px solid #DCDCDC;
-    outline: none;
-    text-indent: 45px;
+    align-items: center;
+    margin: auto;
+    margin-top: 27px;
+    justify-content: center;
+    
 }
-.searchbar input:hover, .searchbar input:focus {
+.parent:hover{
     box-shadow: 0 0 5px #C0C0C0;
 }
-.searchbar img#magnify {
-    position: absolute;
-    top: -142px;
-    left: 286px;
-    width: 18px;
+.child2 {
+    width: 410px;
 }
-.searchbar img#mic {
-    position: absolute;
-    top: -143px;
-    right: 290px;
-    width: 18px;
+input{
+    outline: none;
+    border: none;
+    width: 100%;
+    text-indent: 10px;
 }
 .btn {
     display: flex;
@@ -46,11 +47,15 @@ img{
     font-family: sans-serif;
     font-size: 14px;
 }
-.btn button#search:hover {
+.btn button#search:hover, .btn button#search:focus {
     box-shadow: 0 0 2px black;
     color: black; 
+    border: none;
+    outline: none;
 }
-.btn button#lucky:hover {
+.btn button#lucky:hover, .btn button#lucky:focus {
     box-shadow: 0 0 2px black;
     color: black; 
+    border: none;
+    outline: none;
 }
